@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta charset="utf-8">
+    <title>Subscribe</title>
+  </head>
+  <body>
+    <div class="upper-nav">
+
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="subscribe.html">SUBSCRIBE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post_an_event.html">POST AN EVENT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tell_a_friend.html">TELL A FRIEND</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ADVERTISE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="nav-btn-cus login-btn" name="button">
+                LOGIN
+              </button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="nav-btn-cus register-btn" name="button">
+                REGISTER
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="subscribe-banner">
+        <div class="banner-img">
+          <div class="shaddow-overlay">
+            <img src="images/shaddow.png" alt="">
+          </div>
+          <div class="overlay"></div>
+          <img src="images/subscribe-banner.png" alt="subscribe banner">
+          <h1 class="banner-heading">subscribe for free</h1>
+        </div>
+
+      <div class="banner-text">
+        <h2>sign up free for sendmeevents.com now to find the perfect events near you!</h2>
+        <p>
+          Want to find out about the best events in your area? Want to only
+          find out about specific types of events? Then you've come to the
+          right place. Please fill out the following information so that we
+           may begin to email you events in your area. We DO NOT share your
+           information with any third-party vendors.
+        </p>
+      </div>
+    </section>
+
+    <section class="form-sec">
+      <form class="row" action="index.html" method="post">
+        <label class="col-lg-6" for="firstname">
+          First Name <span>*</span>
+        </label>
+        <input class="col-lg-6" type="text" id="firstname" name="firstname" value="" required>
+
+        <label class="col-lg-6" for="lastname">
+          Last Name <span>*</span>
+        </label>
+        <input class="col-lg-6" type="text" id="lastname" name="lastname" value="" required>
+
+
+        <label class="col-lg-6" for="youremail">
+          email address  <span>*</span>
+        </label>
+        <input class="col-lg-6" type="email" id="reyouremail" name="youremail" value="" required>
+
+        <label class="col-lg-6" for="youremail">
+          Re-enter email address  <span>*</span>
+        </label>
+        <input class="col-lg-6" type="email" id="reyouremail" name="reyouremail" value="" required>
+
+        <label class="col-lg-6" for="password">
+          password  <span>*</span>
+        </label>
+        <input class="col-lg-6" type="password" id="password" name="password" value="" required>
+
+        <label class="col-lg-6" for="confirmpassword">
+          confirm password  <span>*</span>
+        </label>
+        <input class="col-lg-6" type="password" id="confirmpassword" name="confirmpassword" value="" required>
+
+        <label class="col-lg-6" for="gender">
+          gender <span>*</span>
+        </label>
+        <select col-lg-6 id="gender" name="gender" required>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+
+        <label class="col-lg-6" for="birthday">
+          birthday  <span>*</span>
+        </label>
+        <input class="col-lg-6" type="date" id="birthday" name="birthday" value="" required>
+
+        <label class="col-lg-6" for="zipcode">
+          zip code  <span>*</span>
+        </label>
+        <input class="col-lg-6" type="text" id="zipcode" name="zipcode" value="" required>
+
+        <label class="col-lg-6" for="metroarea">
+          metro area  <span>*</span>
+        </label>
+        <input class="col-lg-6" type="text" id="metroarea" name="metroarea" value="" required>
+
+        <div class="gen-hr-div"></div>
+
+
+        <div class="subscribe-event-types">
+          <div >
+            <h2>
+              What types of event are you interested in?
+            </h2>
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/calender-heart.png" alt="calender icon">
+              </div>
+              <label for="">
+                Singles Events
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/parties.png" alt="parties icon">
+              </div>
+              <label for="">
+                Parties
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/vacation.png" alt="vacation icon">
+              </div>
+              <label for="">
+                Vacations
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/dinner.png" alt="dinner icon">
+              </div>
+              <label for="">
+                Food and Wine
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/training.png" alt="training icon">
+              </div>
+              <label for="">
+                Professional Training
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/calender.png" alt="calender icon">
+              </div>
+              <label for="">
+                Adult Events <br> (Life Style)
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/dome.png" alt="dome icon">
+              </div>
+              <label for="">
+                Political and  Social Issues
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/education.png" alt="education icon">
+              </div>
+              <label for="">
+                Educational
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/professional-networking.png" alt="professional networking icon">
+              </div>
+              <label for="">
+                Professional  Networking
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/camera.png" alt="camera icon">
+              </div>
+              <label for="">
+                Film
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/music.png" alt="music icon">
+              </div>
+              <label for="">
+                Music
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/show.png" alt="show icon">
+              </div>
+              <label for="">
+                Shows
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/cycle.png" alt="cycle icon">
+              </div>
+              <label for="">
+                Outdoor
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/cart.png" alt="cart icon">
+              </div>
+              <label for="">
+                Shoping, sales,  Deals, <br> Bargains
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/black-tie.png" alt="black tie icon">
+              </div>
+              <label for="">
+                Black Tie and Gala
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/mind-body.png" alt="mind body icon">
+              </div>
+              <label for="">
+                Mind Body Welness
+
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/bar.png" alt="bar icon">
+              </div>
+              <label for="">
+                Nightclubs and Bars
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/arts.png" alt="arts icon">
+              </div>
+              <label for="">
+              Arts and Culture
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/swim.png" alt="swimming icon">
+              </div>
+              <label for="">
+                Recreational Sports
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/rugby-ball.png" alt="rugby ball icon">
+              </div>
+              <label for="">
+                Watching Sport
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/charity.png" alt="charity icon">
+              </div>
+              <label for="">
+                Charity and  Volunteering
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/call.png" alt="call icon">
+              </div>
+              <label for="">
+                Casting Calls
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/games.png" alt="games icon">
+              </div>
+              <label for="">
+                Games
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/ball.png" alt="ball icon">
+              </div>
+              <label for="">
+                Active Sports
+              </label>
+            </div>
+          </div>
+          </div>
+
+        </div>
+
+        <div class="gen-hr-div"></div>
+
+        <input class="col-1 chkboxinput" id="terms" type="checkbox" name="terms" value="" >
+        <label class="col-11 chkboxlabel" for="terms">
+          I agree to SendMeEvents.com's terms & conditions. <span style="color: red;">*</span>
+        </label>
+        <div class="gen-hr-div"></div>
+
+        <button class="button-filled" type="button" name="button">
+          submit
+        </button>
+        <br>
+        <h3 class="secure-server">
+          <img src="images/lock-icon.png" alt="">
+          Secure Server
+        </h3>
+      </form>
+    </section>
+
+
+
+    <footer >
+      <div class="footer-hor-line">      </div>
+      <div class="footer-top">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="subscribe.html">SUBSCRIBE</a>
+          </li>
+          <li>
+            <a href="post_an_event.html">POST AN EVENT</a>
+          </li>
+          <li>
+            <a href="tell_a_friend.html">TELL A FRIEND</a>
+          </li>
+          <li>
+            <a href="faqs.html">FAQ</a>
+          </li>
+          <li>
+            <a href="blog.html">BLOG</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="row footer-middle">
+        <div class="col-lg">
+          <h1>10,000 +</h1>
+          <p>REGISTERED SUBSCRIBERS</p>
+        </div>
+        <div class="col-lg">
+          <h1>500 +</h1>
+          <p>POSTED EVENTS</p>
+        </div>
+        <div class="col-lg">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>	<a href="#">&copy 2010 <span>sendmeevents.com</span></a>
+          |  <a href="#">Terms of Use</a>  |  <a href="#">Privacy</a>
+          |  <a href="#">Sitemap</a>
+        </p>
+        <p><a href="#">New York Events</a>  |  <a href="#">Chicago Events</a>
+          |  <a href="#">Los Angeles Events</a>   |  <a href="#">Denver Events </a>
+          |  <a href="#">Philadelphia Events</a>   |  <a href="#">Miami Events</a>
+          |  <a href="#">San Francisco Events</a>   |  <a href="#">Houston Events</a>  </p>
+      </div>
+      </footer>
+  </body>
+</html>

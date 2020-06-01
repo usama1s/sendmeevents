@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta charset="utf-8">
+    <title>Post Event</title>
+  </head>
+  <body>
+    <div class="upper-nav">
+
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="subscribe.html">SUBSCRIBE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post_an_event.html">POST AN EVENT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tell_a_friend.html">TELL A FRIEND</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ADVERTISE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="nav-btn-cus login-btn" name="button">
+                LOGIN
+              </button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="nav-btn-cus register-btn" name="button">
+                REGISTER
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="contact-banner">
+        <div class="banner-img">
+          <div class="shaddow-overlay">
+            <img src="images/shaddow.png" alt="">
+          </div>
+          <div class="overlay"></div>
+          <img src="images/post-event-banner-img.png" alt="event banner">
+          <h1 class="banner-heading">post an event</h1>
+        </div>
+
+      <div class="banner-text">
+        <h2>submit your event</h2>
+        <p>
+          We use more than 1,100 criteria to match our 15,000 NYC subscribers
+          with the widest range of social, culinary, cultural & professional
+          events. We are serving another 25,000 subscribers in Boston,
+          Chicago, Los Angeles, Miami, Philadelphia, Portland, the San
+           Francisco Bay Area, Seattle, and Washington, D.C
+        </p>
+      </div>
+    </section>
+    <section class="banner-within-line-black">
+      <h2><span>IF YOU ARE ALREADY A SUBSCRIBER</span></h2>
+      <div class="row banner-buttons">
+        <a class="col-lg-6" href="#">
+          <img src="images/touch-icon.png" alt="touch icon">
+          <h4>Submit your event</h4>
+        </a>
+
+        <a class="col-lg-6" href="#">
+          <img src="images/choose-icon.png" alt="choose icon">
+          <h4>Chooser your targeted audience</h4>
+        </a>
+
+        <a class="col-lg-6" href="#">
+          <img src="images/letter-icon.png" alt="letter icon">
+          <h4>We'll send your message</h4>
+        </a>
+
+        <a class="col-lg-6" href="#">
+          <img src="images/report-icon.png" alt="report icon">
+          <h4>You'll get a report of viewed message</h4>
+        </a>
+      </div>
+    </section>
+    <section class="banner-within-line-black">
+      <h2><span>how it works?</span></h2>
+      <div class="row banner-buttons">
+        <a class="col-lg-8" href="#">
+          <img src="images/price-icon.png" alt="price icon">
+          <h4>We will charge the price of 1 ticket or $19 minimum.</h4>
+        </a>
+      </div>
+    </section>
+
+    <div class="gen-hr-div">
+
+    </div>
+
+
+    <section class="form-sec">
+
+      <form class="row" action="index.html" method="post">
+        <div class="form-info">
+          <h3>information to be included in your calendar listing</h3>
+          <p>
+            You can review and edit the calendar listing anytime until
+            your SendMeEvents promotion manager publishes your event.
+          </p>
+        </div>
+        <label class="col-lg-6" for="eventstartdate">
+          Event Start Date <span>*</span>
+        </label>
+        <input class="col-lg-6" type="date" id="eventstartdate" name="eventstartdate" value="" required>
+
+        <label class="col-lg-6" for="eventstarttime">
+          Event Start Time <span>*</span>
+        </label>
+        <input class="col-lg-6" type="time" id="eventstarttime" name="eventstarttime" value="" required>
+
+        <label class="col-lg-6" for="eventenddate">
+          Event end Date <span>*</span>
+        </label>
+        <input class="col-lg-6" type="date" id="eventenddate" name="eventenddate" value="" required>
+
+        <label class="col-lg-6" for="eventendtime">
+          Event end Time <span>*</span>
+        </label>
+        <input class="col-lg-6" type="time" id="eventendtime" name="eventendtime" value="" required>
+
+        <label class="col-lg-6" for="eventlistingtitle">
+          Event listing title <span>*</span> <br>
+          <span class="opt" > (No All Caps please) </span>
+        </label>
+        <input class="col-lg-6" type="text" id="eventlistingtitle" name="eventlistingtitle" value="" required>
+
+        <label class="col-lg-6" for="eventlistingtitle">
+          host <br>
+          <span class="opt" > (you/your organization responsible for the event) </span>
+        </label>
+        <input class="col-lg-6" type="text" id="eventlistingtitle" name="eventlistingtitle" value="">
+
+        <label class="col-lg-6" for="hostwebsite">
+          host website
+        </label>
+        <input class="col-lg-6" type="text" id="hostwebsite" name="hostwebsite" value="">
+
+        <label class="col-lg-6" for="where">
+          where <br>
+          <span class="opt" >
+            (Event Location - please include city)
+            If you provvide a map link in the field below we will list
+            it along with your "where" data:
+           </span>
+        </label>
+        <textarea class="col-lg-6 textarea1" maxlength="100"  name="where" id="where" rows="6" cols=""></textarea>
+        <div class="the-count1">
+          <span class="current1">0</span>
+          <span class="maximum1">/ 100</span>
+        </div>
+
+        <label class="col-lg-6" for="dresscode">
+          dress code  <span class="opt" > if aplicable </span>
+        </label>
+        <input class="col-lg-6" type="text" id="dresscode" name="dresscode" value="">
+
+        <label class="col-lg-6" for="crowd">
+          crowd <span class="opt" > if applicable (e.g. age range) </span>
+        </label>
+        <input class="col-lg-6" type="text" id="crowd" name="crowd" value="">
+
+        <label class="col-lg-6" for="price">
+          price <span>*</span><br>
+          <span class="opt" >
+            (list your ticketing options or enter "free") <br>
+            We expect you to offer the best publicly
+            available deal in our free listings.
+           </span>
+        </label>
+        <textarea class="textarea2 col-lg-6" maxlength="100" name="price" id="price" rows="6" cols="" required></textarea>
+        <div class="the-count2">
+          <span class="current2">0</span>
+          <span class="maximum2">/ 100</span>
+        </div>
+
+        <label class="col-lg-6" for="rsvpwebaddress">
+          rsvp <span class="opt" > registration </span><br>
+          <span class="opt" > web address </span>
+        </label>
+        <input class="col-lg-6" type="text" id="rsvpwebaddress" name="rsvpwebaddress" value="">
+
+        <label class="col-lg-6" for="rsvpemailaddress">
+          rsvp <span class="opt" > registration </span><br>
+          <span class="opt" > email address </span>
+        </label>
+        <input class="col-lg-6" type="email" id="rsvpemailaddress" name="rsvpemailaddress" value="">
+
+        <label class="col-lg-6" for="rsvpphonenumber">
+          rsvp <span class="opt" > registration </span> <br>
+          <span class="opt" > phone number (in listing) </span>
+        </label>
+        <input class="col-lg-6" type="text" id="rsvpphonenumber" name="rsvpphonenumber" value="">
+
+        <label class="col-lg-6" for="eventdescription">
+          event description <span>*</span><br>
+          <span class="opt" >
+            Describe your event in a way that makes it attractive to your
+             target audience. Try to answer questions they might have
+             about it and avoid blatancy.
+           </span>
+           <br>
+           <br>
+           <span class="opt">
+             You can use line breaks in this field to create separate paragraphs
+              of your listing, but
+           </span>
+           No HTML code
+           <span class="opt">
+             (anything that needs "<" or ">") and
+           </span>
+           No links
+           <span class="opt">
+             or
+           </span>
+           email addresses
+           <span class="opt">
+             (use the fields above and velow instead).
+             <br>
+             <br>
+             Begin a line with a * to create a bullteted list.
+
+
+           </span>
+        </label>
+        <textarea class="textarea3" maxlength="510" col-lg-6 name="eventdescription" id="eventdescription" rows="11" cols="" required></textarea>
+        <div class="the-count3">
+          <span class="current3">0</span>
+          <span class="maximum3">/ 510</span>
+        </div>
+
+        <div class="gen-hr-div"></div>
+
+        <div class="form-info">
+          <h3>listing targeting information (not public)</h3>
+          <p>
+            You will be able to edit htis information after your initial
+            submit, as well.
+          </p>
+        </div>
+
+        <label class="col-lg-6" for="5digitzipcode">
+          5 digit zip code of the event location <span>*</span> <br>
+          <span class="opt" >
+            (the center of our geo-targeting area, USA only)
+          </span> <br>
+
+
+        </label>
+        <input class="col-lg-6" type="text" id="5digitzipcode" name="5digitzipcode" value="" required>
+
+        <label class="col-lg-6" for="nonuscitizen">
+          Check here if non-US event
+        </label>
+        <input class="col-lg-1 chkboxinput" id="nonuscitizen" type="checkbox" name="nonuscitizen" value="" >
+        <!-- <div class="col-lg-5">
+
+        </div> -->
+
+        <label class="col-lg-6" for="price">
+          targeting Criteria for Your Event <span>*</span><br>
+          <span class="opt" >
+            such as age range, interests, backgrounds, etc.
+           </span>
+        </label>
+        <textarea class="col-lg-6 textarea4" maxlength="100" name="price" id="price" rows="6" cols="" required></textarea>
+        <div class="the-count4">
+          <span class="current4">0</span>
+          <span class="maximum4">/ 100</span>
+        </div>
+
+          <br>
+          <br>
+          <br>
+        <div class="form-info" style="padding-top: 25px; padding-bottom: 25px;">
+          <h3>administrative & billing information (not public)</h3>
+
+        </div>
+
+
+        <label class="col-lg-6" for="yourname">
+          Your full Name <span>*</span> <br>
+          <span class="opt">
+            (or that of the person in charge for this promotion)
+          </span>
+        </label>
+        <input class="col-lg-6" type="text" id="yourname" name="yourname" value="" required>
+
+
+        <label class="col-lg-6" for="youremail">
+          your email address  <span>*</span>
+          <span class="opt">
+            (a copy of this request will be sent ther for confirmation)
+          </span>
+        </label>
+        <input class="col-lg-6" type="text" id="youremail" name="Name" value="" required>
+
+        <label class="col-lg-6" for="phonenumber">
+          your phone number
+        </label>
+        <input class="col-lg-6" type="text" id="phonenumber" name="Name" value="">
+
+        <label class="col-lg-6" for="how">
+          how did you hear about us?  <span>*</span>
+        </label>
+        <input class="col-lg-6" type="text" id="how" name="how" value="" required>
+
+        <label class="col-lg-6" for="anythingelse">
+          Is there anything else you want us to know about your promotion request?
+
+        </label>
+        <textarea class="textarea5 col-lg-6" maxlength="100" name="anythingelse" id="anythingelse" rows="6" cols=""></textarea>
+        <div class="the-count5">
+          <span class="current5">0</span>
+          <span class="maximum5">/ 100</span>
+        </div>
+
+
+
+        <div class="gen-hr-div"></div>
+
+
+        <input class="col-1 chkboxinput" id="nosubscribe" type="checkbox" name="nosubscribe" value="" >
+        <label class="col-11 chkboxlabel" for="nosubscribe">
+          I don't watn to pay the $19 - $99 calendar listing fee and
+          take my chances of not being included. <br>
+          IOW: Don't vother sending me a proposal.
+        </label>
+
+        <input class="col-1 chkboxinput" id="subscribe" type="checkbox" name="subscribe" value="" >
+        <label class="col-11 chkboxlabel" for="subscribe">
+          Tell me about list size and fees for the optional
+          <span>dedicated mailing</span> for this event.
+        </label>
+
+        <div class="gen-hr-div"></div>
+
+        <button class="button-filled" type="button" name="button">
+          submit
+        </button>
+        <br>
+        <h3 class="secure-server">
+          <img src="images/lock-icon.png" alt="lock icon">
+          Secure Server
+        </h3>
+        <div class="gen-hr-div"></div>
+
+        <div class="form-bottom-info">
+          <h3>
+            You can review and continue editing your listing information
+             on the next page, where you can also add an <span>image for your listing.</span>
+              <br>
+              <br>
+
+             Please call us at (XXX) XXX XXXX or send an email
+             to <a href="mailto:info@sendmeevents.com">info@sendmeevents.com</a> if you have any questions.
+          </h3>
+
+        </div>
+      </form>
+    </section>
+
+
+
+    <footer >
+      <div class="footer-hor-line">      </div>
+      <div class="footer-top">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="subscribe.html">SUBSCRIBE</a>
+          </li>
+          <li>
+            <a href="post_an_event.html">POST AN EVENT</a>
+          </li>
+          <li>
+            <a href="tell_a_friend.html">TELL A FRIEND</a>
+          </li>
+          <li>
+            <a href="faqs.html">FAQ</a>
+          </li>
+          <li>
+            <a href="blog.html">BLOG</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="row footer-middle">
+        <div class="col-lg">
+          <h1>10,000 +</h1>
+          <p>REGISTERED SUBSCRIBERS</p>
+        </div>
+        <div class="col-lg">
+          <h1>500 +</h1>
+          <p>POSTED EVENTS</p>
+        </div>
+        <div class="col-lg">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>	<a href="#">&copy 2010 <span>sendmeevents.com</span></a>
+          |  <a href="#">Terms of Use</a>  |  <a href="#">Privacy</a>
+          |  <a href="#">Sitemap</a>
+        </p>
+        <p><a href="#">New York Events</a>  |  <a href="#">Chicago Events</a>
+          |  <a href="#">Los Angeles Events</a>   |  <a href="#">Denver Events </a>
+          |  <a href="#">Philadelphia Events</a>   |  <a href="#">Miami Events</a>
+          |  <a href="#">San Francisco Events</a>   |  <a href="#">Houston Events</a>  </p>
+      </div>
+      </footer>
+      <script src="js/main.js" type="text/javascript">
+
+      </script>
+      <script type="text/javascript">
+        $('.textarea1').keyup(function() {
+          var characterCount = $(this).val().length,
+              current = $('.current1'),
+              maximum = $('.maximum1'),
+              theCount = $('.the-count1');
+
+          current.text(characterCount);
+        });
+        $('.textarea2').keyup(function() {
+          var characterCount = $(this).val().length,
+              current = $('.current2'),
+              maximum = $('.maximum2'),
+              theCount = $('.the-count2');
+
+          current.text(characterCount);
+        });
+        $('.textarea3').keyup(function() {
+          var characterCount = $(this).val().length,
+              current = $('.current3'),
+              maximum = $('.maximum3'),
+              theCount = $('.the-count3');
+
+          current.text(characterCount);
+        });
+        $('.textarea4').keyup(function() {
+          var characterCount = $(this).val().length,
+              current = $('.current4'),
+              maximum = $('.maximum4'),
+              theCount = $('.the-count4');
+
+          current.text(characterCount);
+        });
+        $('.textarea5').keyup(function() {
+          var characterCount = $(this).val().length,
+              current = $('.current5'),
+              maximum = $('.maximum5'),
+              theCount = $('.the-count5');
+
+          current.text(characterCount);
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="upper-nav">
+
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo">
+        </a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="images/icons/john.png" alt="John-Smith">
+          John Smith
+          <img src="images/icons/down.png" alt="arrow icon">
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <a class="dropdown-item" href="#">
+            <img src="images/icons/user.png" alt="user icon">
+            My Profile
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">
+            <img src="images/icons/signout.png" alt="signout icon">
+            SignOut
+          </a>
+        </div>
+
+
+      </div>
+    </nav>
+
+    <section class="contact-banner">
+        <div class="banner-img">
+          <div class="shaddow-overlay">
+            <img src="images/shaddow.png" alt="">
+          </div>
+          <div class="overlay"></div>
+          <img src="images/dashboard-banner-img-1.png" alt="dashboard banner">
+          <h1 class="banner-heading">dashboard</h1>
+        </div>
+
+    </section>
+
+    <section class="dashboard-sec">
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 dashboard-menu-side">
+          <button class="dashboard-menu-button dashboard-menu-button-activated interestBtn" type="button" name="button">
+            <div class="button-img">
+              <img src="images/icons/heart.png" alt="heart icon">
+            </div>
+            <h6>Interest Settings</h6>
+          </button>
+
+          <button class="dashboard-menu-button mailBtn" type="button" name="button">
+            <div class="button-img">
+              <img src="images/icons/mail.png" alt="mail icon">
+            </div>
+            <h6>Mail Settings</h6>
+          </button>
+
+          <button class="dashboard-menu-button securityBtn" type="button" name="button">
+            <div class="button-img">
+              <img src="images/icons/lock.png" alt="lock icon">
+            </div>
+            <h6>Security Settings</h6>
+          </button>
+        </div>
+        <div class="col-xs-11 col-sm-11 col-md-11 col-lg-9 col-xl-9 dashboard-other-side">
+          <div class="interestMenu show-sec">
+            <h1>
+              Choose the type of events you  are interested in
+            </h1>
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/calender-heart.png" alt="calender icon">
+              </div>
+              <label for="">
+                Singles Events
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/parties.png" alt="parties icon">
+              </div>
+              <label for="">
+                Parties
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/vacation.png" alt="vacation icon">
+              </div>
+              <label for="">
+                Vacations
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/dinner.png" alt="dinner icon">
+              </div>
+              <label for="">
+                Food and Wine
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/training.png" alt="training icon">
+              </div>
+              <label for="">
+                Professional Training
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/calender.png" alt="calender icon">
+              </div>
+              <label for="">
+                Adult Events <br> (Life Style)
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/dome.png" alt="dome icon">
+              </div>
+              <label for="">
+                Political and <br> Social Issues
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/education.png" alt="education icon">
+              </div>
+              <label for="">
+                Educational
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/professional-networking.png" alt="professional networking icon">
+              </div>
+              <label for="">
+                Professional <br> Networking
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/camera.png" alt="camera icon">
+              </div>
+              <label for="">
+                Film
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/music.png" alt="music icon">
+              </div>
+              <label for="">
+                Music
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/show.png" alt="show icon">
+              </div>
+              <label for="">
+                Shows
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/cycle.png" alt="cycle icon">
+              </div>
+              <label for="">
+                Outdoor
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/cart.png" alt="cart icon">
+              </div>
+              <label for="">
+                Shoping, sales <br> Deals, Bargains
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/black-tie.png" alt="black tie icon">
+              </div>
+              <label for="">
+                Black Tie and Gala
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/mind-body.png" alt="mind body icon">
+              </div>
+              <label for="">
+                Mind Body Welness
+
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/bar.png" alt="bar icon">
+              </div>
+              <label for="">
+                Nightclubs and Bars
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/arts.png" alt="arts icon">
+              </div>
+              <label for="">
+              Arts and Culture
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/swim.png" alt="swimming icon">
+              </div>
+              <label for="">
+                Recreational Sports
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/rugby-ball.png" alt="rugby ball icon">
+              </div>
+              <label for="">
+                Watching Sport
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/charity.png" alt="charity icon">
+              </div>
+              <label for="">
+                Charity and <br> Volunteering
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/call.png" alt="call icon">
+              </div>
+              <label for="">
+                Casting Calls
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/games.png" alt="games icon">
+              </div>
+              <label for="">
+                Games
+              </label>
+            </div>
+
+            <div class="event-types-buttons">
+              <input type="checkbox" id="" name="" value="">
+              <div class="event-type-img">
+                <img src="images/icons/ball.png" alt="ball icon">
+              </div>
+              <label for="">
+                Active Sports
+              </label>
+            </div>
+          </div>
+
+          <div class="mailMenu hide-sec">
+            <h1>
+              this is mail setting
+            </h1>
+          </div>
+
+          <div class="securityMenu hide-sec">
+            <h1>
+              this is security setting
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer >
+      <div class="footer-hor-line">      </div>
+      <div class="footer-top">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="subscribe.html">SUBSCRIBE</a>
+          </li>
+          <li>
+            <a href="post_an_event.html">POST AN EVENT</a>
+          </li>
+          <li>
+            <a href="tell_a_friend.html">TELL A FRIEND</a>
+          </li>
+          <li>
+            <a href="faqs.html">FAQ</a>
+          </li>
+          <li>
+            <a href="blog.html">BLOG</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="row footer-middle">
+        <div class="col-lg">
+          <h1>10,000 +</h1>
+          <p>REGISTERED SUBSCRIBERS</p>
+        </div>
+        <div class="col-lg">
+          <h1>500 +</h1>
+          <p>POSTED EVENTS</p>
+        </div>
+        <div class="col-lg">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>	<a href="#">&copy 2010 <span>sendmeevents.com</span></a>
+          |  <a href="#">Terms of Use</a>  |  <a href="#">Privacy</a>
+          |  <a href="#">Sitemap</a>
+        </p>
+        <p><a href="#">New York Events</a>  |  <a href="#">Chicago Events</a>
+          |  <a href="#">Los Angeles Events</a>   |  <a href="#">Denver Events </a>
+          |  <a href="#">Philadelphia Events</a>   |  <a href="#">Miami Events</a>
+          |  <a href="#">San Francisco Events</a>   |  <a href="#">Houston Events</a>  </p>
+      </div>
+      </footer>
+      <script type="text/javascript">
+      // select documetn object model (DOM) items
+
+      const interestBtn = document.querySelector(".interestBtn");
+      const interestMenu = document.querySelector(".interestMenu");
+
+      const mailBtn = document.querySelector(".mailBtn");
+      const mailMenu = document.querySelector(".mailMenu");
+
+      const securityBtn = document.querySelector(".securityBtn");
+      const securityMenu = document.querySelector(".securityMenu");
+
+
+      // set if the menu is open or close
+      let ShowInterestMenu = true; // initially interestsettings is open
+      let ShowMailMenu = false;
+      let ShowSecurityMenu = false;
+
+      interestBtn.addEventListener("click", toggleInterestMenu);
+      mailBtn.addEventListener("click", toggleMailMenu);
+      securityBtn.addEventListener("click", toggleSecurityMenu);
+
+      function toggleInterestMenu() {
+        if (!ShowInterestMenu) {
+          // menu is closed
+          interestBtn.classList.add("dashboard-menu-button-activated");
+          mailBtn.classList.remove("dashboard-menu-button-activated");
+          securityBtn.classList.remove("dashboard-menu-button-activated");
+
+          interestMenu.classList.add("show-sec");
+          mailMenu.classList.remove("show-sec");
+          securityMenu.classList.remove("show-sec");
+
+          interestMenu.classList.remove("hide-sec");
+          mailMenu.classList.add("hide-sec");
+          securityMenu.classList.add("hide-sec");
+
+          ShowInterestMenu = true;
+          ShowMailMenu = false;
+          ShowSecurityMenu = false;
+        } else {
+          //menu is open
+          interestBtn.classList.remove("dashboard-menu-button-activated");
+          mailBtn.classList.remove("dashboard-menu-button-activated");
+          securityBtn.classList.remove("dashboard-menu-button-activated");
+
+          interestMenu.classList.remove("show-sec");
+          mailMenu.classList.remove("show-sec");
+          securityMenu.classList.remove("show-sec");
+
+          interestMenu.classList.add("hide-sec");
+          mailMenu.classList.add("hide-sec");
+          securityMenu.classList.add("hide-sec");
+
+          ShowInterestMenu = false;
+          ShowMailMenu = false;
+          ShowSecurityMenu = false;
+        }
+      }
+
+      function toggleMailMenu() {
+        if (!ShowMailMenu) {
+          // menu is closed
+          interestBtn.classList.remove("dashboard-menu-button-activated");
+          mailBtn.classList.add("dashboard-menu-button-activated");
+          securityBtn.classList.remove("dashboard-menu-button-activated");
+
+          interestMenu.classList.remove("show-sec");
+          mailMenu.classList.add("show-sec");
+          securityMenu.classList.remove("show-sec");
+
+          interestMenu.classList.add("hide-sec");
+          mailMenu.classList.remove("hide-sec");
+          securityMenu.classList.add("hide-sec");
+
+          ShowInterestMenu = false;
+          ShowMailMenu = true;
+          ShowSecurityMenu = false;
+        } else {
+          //menu is open
+          interestBtn.classList.remove("dashboard-menu-button-activated");
+          mailBtn.classList.remove("dashboard-menu-button-activated");
+          securityBtn.classList.remove("dashboard-menu-button-activated");
+
+          interestMenu.classList.remove("show-sec");
+          mailMenu.classList.remove("show-sec");
+          securityMenu.classList.remove("show-sec");
+
+          interestMenu.classList.add("hide-sec");
+          mailMenu.classList.add("hide-sec");
+          securityMenu.classList.add("hide-sec");
+
+          ShowInterestMenu = false;
+          ShowMailMenu = false;
+          ShowSecurityMenu = false;
+        }
+      }
+
+      function toggleSecurityMenu() {
+        if (!ShowSecurityMenu) {
+          // menu is closed
+          interestBtn.classList.remove("dashboard-menu-button-activated");
+          mailBtn.classList.remove("dashboard-menu-button-activated");
+          securityBtn.classList.add("dashboard-menu-button-activated");
+
+          interestMenu.classList.remove("show-sec");
+          mailMenu.classList.remove("show-sec");
+          securityMenu.classList.add("show-sec");
+
+          interestMenu.classList.add("hide-sec");
+          mailMenu.classList.add("hide-sec");
+          securityMenu.classList.remove("hide-sec");
+
+          ShowInterestMenu = false;
+          ShowMailMenu = false;
+          ShowSecurityMenu = true;
+        } else {
+          //menu is open
+          interestBtn.classList.remove("dashboard-menu-button-activated");
+          mailBtn.classList.remove("dashboard-menu-button-activated");
+          securityBtn.classList.remove("dashboard-menu-button-activated");
+
+          interestMenu.classList.remove("show-sec");
+          mailMenu.classList.remove("show-sec");
+          securityMenu.classList.remove("show-sec");
+
+          interestMenu.classList.add("hide-sec");
+          mailMenu.classList.add("hide-sec");
+          securityMenu.classList.add("hide-sec");
+
+          ShowInterestMenu = false;
+          ShowMailMenu = false;
+          ShowSecurityMenu = false;
+        }
+      }
+
+      $('.textarea1').keyup(function() {
+        var characterCount = $(this).val().length,
+            current = $('.current1'),
+            maximum = $('.maximum1'),
+            theCount = $('.the-count1');
+
+        current.text(characterCount);
+      });
+      $('.textarea2').keyup(function() {
+        var characterCount = $(this).val().length,
+            current = $('.current2'),
+            maximum = $('.maximum2'),
+            theCount = $('.the-count2');
+
+        current.text(characterCount);
+      });
+      $('.textarea3').keyup(function() {
+        var characterCount = $(this).val().length,
+            current = $('.current3'),
+            maximum = $('.maximum3'),
+            theCount = $('.the-count3');
+
+        current.text(characterCount);
+      });
+      $('.textarea4').keyup(function() {
+        var characterCount = $(this).val().length,
+            current = $('.current4'),
+            maximum = $('.maximum4'),
+            theCount = $('.the-count4');
+
+        current.text(characterCount);
+      });
+      $('.textarea5').keyup(function() {
+        var characterCount = $(this).val().length,
+            current = $('.current5'),
+            maximum = $('.maximum5'),
+            theCount = $('.the-count5');
+
+        current.text(characterCount);
+      });
+
+      </script>
+      <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>

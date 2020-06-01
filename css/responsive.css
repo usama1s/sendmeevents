@@ -1,0 +1,175 @@
+/* banner */
+@media only screen and (min-width: 1200px) {
+  nav .container{
+    max-width: 1170px;
+  }
+  .recect-blogs{
+    margin-left: 60px ;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  nav .container{
+    max-width: 100%;
+  }
+  .faq-sec{
+    margin: auto 20px;
+    max-width: calc(100% - 40px);
+  }
+  .email-listings{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .banner-1 .banner-text-1{
+    left: 400px;
+    bottom: 91px;
+  }
+
+}
+
+
+@media only screen and (min-width: 500px) and (max-width:1199px){
+
+  /* nav .container{
+    max-width: 100%;
+  } */
+}
+
+@media only screen and (max-width: 991px){
+  .the-count1,
+  .the-count2,
+  .the-count3,
+  .the-count4,
+  .the-count5{
+    max-width: 420px;
+  }
+  .form-sec{
+    max-width: 450px;
+    padding: 5px;
+  }
+  form{
+    max-width: 450px;
+    margin: 0 !important;
+  }
+  form input, select{
+    max-width: 420px;
+  }
+  form textarea{
+    max-width: 420px;
+    min-width: 420px;
+  }
+  .calender-banner-2 p,
+  .calender-banner-3 p{
+    width: 100%;
+  }
+  .rsvp-side{
+    margin: 30px 0;
+  }
+  .email-single-list{
+    width: 400px;
+  }
+  .rsvp-side hr{
+    visibility: visible;
+    height: 3px;
+    width: 100%;
+    margin: 16px 0;
+  }
+  .dashboard-menu-button h6{
+    display: none;
+  }
+  .dashboard-menu-button{
+    width: 55px;
+    height: 50px;
+  }
+  .dashboard-menu-side{
+    max-width: 55px !important;
+    margin-left: 0 !important;
+  }
+  .promoters-div{
+    min-height: 287px;
+  }
+}
+
+
+@media only screen and (min-width:698px) and (max-width: 892px){
+
+  .how-it-works{
+    top:650px;
+
+  }
+  .h-footer{
+    margin-top: 650px;
+  }
+}
+
+@media only screen and (max-width: 697px){
+
+  .recent-blogs .single-blog{
+    height: 550px;
+  }
+  .single-blog .blog-img{
+    display: inline-block;
+    position: relative;
+    margin-left: calc(50% - 135px);
+  }
+  .single-blog .blog-img img{
+
+  }
+  .single-blog .blog-text{
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+
+  }
+
+  .page-num-hr-1{
+    visibility: hidden;
+  }
+  .page-num-hr-2{
+    visibility: visible;
+  }
+  .dashboard-sec .dashboard-other-side{
+    max-width: 88%;
+
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 991px){
+  .banner-1 .banner-text-1{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+  }
+  .banner-1-top img{
+    width: 50%;
+  }
+  .banner-1-bottom img{
+    width: 50%;
+  }
+
+}
+/* banner end */
+
+/* nav */
+@media only screen and (min-width: 1010px)and (max-width: 1070px) {
+  nav .nav-link{
+    padding: 7px 1px !important;
+  }
+}
+@media only screen and (min-width: 900px)and (max-width: 1030px) {
+  nav .nav-item{
+    margin: 7px 2px !important;
+  }
+  nav .nav-link{
+    padding: 7px 3px !important;
+  }
+}
