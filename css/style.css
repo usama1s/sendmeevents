@@ -196,27 +196,28 @@ button{
   margin: auto;
   margin-bottom: 50px;
 }
-.banner-buttons a{
+.banner-buttons div{
   text-decoration: none;
   max-width: 570px;
   height: 65px;
   background-color: #ffffff;
-  border: 1px solid #cccccc;
+  /* border: 1px solid #cccccc; */
   text-align: left;
   margin: 5px auto;
   padding: 10px;
+  display: block;
 }
-.banner-buttons a h4,
-.banner-buttons a img{
+.banner-buttons div h4,
+.banner-buttons div img{
   display: inline;
 }
-.banner-buttons a img{
+.banner-buttons div img{
   width: 40px;
   height: auto;
   /* margin-bottom: 10px; */
   margin: 0 20px 10px 30px;
 }
-.banner-buttons a h4{
+.banner-buttons div h4{
   font-size: 18px;
   line-height: 24px;
   color: #54545a;
@@ -350,6 +351,7 @@ height: 11px;
 .banner-1-top img{
   float: left;
   width: 25%;
+  height: auto;
   padding: 0;
   margin: 0;
 }
@@ -361,6 +363,7 @@ height: 11px;
 .banner-1-bottom img{
   float: left;
   width: 25%;
+  height: auto;
   padding: 0;
   margin: 0;
 }
@@ -636,7 +639,7 @@ font-weight: 400;
   max-width: 1600px;
   margin: auto;
   position: relative;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .recent-blogs{
@@ -808,7 +811,7 @@ overflow: hidden;
   max-width: 1600px;
   margin: auto;
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   /* padding-bottom: 200px; */
 }
 
@@ -953,10 +956,16 @@ font-weight: 700;
 .rsvp-inner .host{
   color: #ea8630;
 }
-.rsvp-inner button{
+.rsvp-btn{
   height: 40px;
   padding: 0 15px;
   margin-top: 20px;
+}
+.mobile-view-btn{
+  display: none;
+}
+.desktop-view-btn{
+  display:block;
 }
 .email-single-list .detail-side{
   width: 340px;
@@ -1423,4 +1432,7 @@ width: 100%;
 .the-count5{
   width: 100%;
   text-align: right;
+}
+.rotateFAQIcon{
+  transform: rotate(180deg);
 }
