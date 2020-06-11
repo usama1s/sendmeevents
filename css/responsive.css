@@ -38,6 +38,27 @@
 }
 
 @media only screen and (max-width: 991px){
+  .desktop-view-btn{
+    display: none;
+  }
+  .mobile-view-btn{
+    display: block;
+  }
+  .banner-1 .banner-text-1{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+  }
+  .banner-1-top img{
+    width: 50%;
+  }
+  .banner-1-bottom img{
+    width: 50%;
+  }
+
   .the-count1,
   .the-count2,
   .the-count3,
@@ -131,8 +152,7 @@
     visibility: visible;
   }
   .dashboard-sec .dashboard-other-side{
-    max-width: 88%;
-
+    max-width: 85%;
   }
 
 }
@@ -140,23 +160,7 @@
 
 
 
-@media only screen and (max-width: 991px){
-  .banner-1 .banner-text-1{
-    position: relative;
-    width: 100%;
-    margin: 0;
-    bottom: 0;
-    left: 0;
-    height: auto;
-  }
-  .banner-1-top img{
-    width: 50%;
-  }
-  .banner-1-bottom img{
-    width: 50%;
-  }
 
-}
 /* banner end */
 
 /* nav */
@@ -171,5 +175,19 @@
   }
   nav .nav-link{
     padding: 7px 3px !important;
+  }
+}
+@media only screen and (max-width: 570px){
+  .navbar-brand img{
+    width: 220px;
+  }
+  .text-side {
+    width: 78%;
+  }
+  .faq-title h1{
+    width: 50%;
+  }
+  .faq-banner .banner-img h1{
+    bottom: calc( 50% - 48px);
   }
 }

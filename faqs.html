@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/responsive.css">
 
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQs</title>
 </head>
 
@@ -28,7 +29,7 @@
 
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" alt="logo">
+        <img src="images/logo.jpg" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -66,13 +67,13 @@
     </div>
   </nav>
 
-  <section class="contact-banner">
+  <section class="faq-banner contact-banner">
     <div class="banner-img">
       <div class="shaddow-overlay">
         <img src="images/shaddow.png" alt="">
       </div>
       <div class="overlay"></div>
-      <img src="images/faqs-banner-img.png" alt="faqs-banner-img">
+      <img src="images/faqs-banner-img.jpg" alt="faqs-banner-img">
       <h1 class="banner-heading">frequently asked questions</h1>
     </div>
 
@@ -87,19 +88,19 @@
   </section>
 
   <section class="faq-sec">
-    <a  data-toggle="collapse" href="#subscribers-faqs" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a onclick="rotateSubIcon()" data-toggle="collapse"   href="#subscribers-faqs" role="button" aria-expanded="false" aria-controls="collapseExample">
       <div class="faq-title ">
         <div class="subscriber-img">
           <img src="images/icons/subscribers.png" alt="subscriber-icon">
         </div>
         <h1>subscribers</h1>
         <div class="open-icon">
-          <img src="images/icons/up.png" alt="up-icon">
+          <img id="subBTN" src="images/icons/down.png" alt="up-icon">
         </div>
         </div>
     </a>
 
-    <div class="faqs-questions subscribers-faqs" class="collapse" id="subscribers-faqs">
+    <div class="faqs-questions subscribers-faqs collapse" id="subscribers-faqs">
       <h2>
         What is Event Me all about?
       </h2>
@@ -396,19 +397,19 @@
 
 
     <section class="faq-sec">
-      <a  data-toggle="collapse" href="#promoters-faqs" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <a onclick="rotatePromIcon()" data-toggle="collapse" href="#promoters-faqs" role="button" aria-expanded="false" aria-controls="collapseExample">
         <div class="faq-title promoters">
           <div class="promoters-img">
             <img src="images/icons/promoters.png" alt="promoters-icon">
           </div>
           <h1>promoters</h1>
           <div class="open-icon">
-            <img src="images/icons/up.png" alt="up-icon">
+            <img id="PromBTN" src="images/icons/down.png" alt="up-icon">
           </div>
         </div>
       </a>
 
-      <div class="faqs-questions promoters-faqs" class="collapse" id="promoters-faqs">
+      <div class="faqs-questions promoters-faqs collapse" id="promoters-faqs">
         <h2>
           This is promoters sections
         </h2>
@@ -419,19 +420,19 @@
     </section>
 
     <section class="faq-sec">
-      <a  data-toggle="collapse" href="#sponsors-faqs" role="button" aria-expanded="false" aria-controls="sponsors-faqs">
+      <a onclick="rotateSponIcon()" data-toggle="collapse" href="#sponsors-faqs" role="button" aria-expanded="false" aria-controls="sponsors-faqs">
         <div class="faq-title">
           <div class="subscriber-img">
             <img src="images/icons/sponsors.png" alt="sponsor-icon">
           </div>
           <h1>sendmeevents sponsors</h1>
           <div class="open-icon">
-            <img src="images/icons/up.png" alt="up-icon">
+            <img id="SponBTN" src="images/icons/down.png" alt="up-icon">
           </div>
         </div>
       </a>
 
-      <div class="faqs-questions sponsors-faqs" class="collapse" id="sponsors-faqs">
+      <div class="faqs-questions sponsors-faqs collapse" id="sponsors-faqs">
         <h2>
           This is sponsors sections
         </h2>
@@ -497,6 +498,23 @@
           |  <a href="#">San Francisco Events</a>   |  <a href="#">Houston Events</a>  </p>
       </div>
       </footer>
+      <script>
+      function rotateSubIcon() {
+         var element = document.getElementById("subBTN");
+         // element.classList.add("rotateFAQIcon");
+         element.classList.toggle('rotateFAQIcon');
+      }
+      function rotatePromIcon() {
+         var element = document.getElementById("PromBTN");
+         // element.classList.add("rotateFAQIcon");
+         element.classList.toggle('rotateFAQIcon');
+      }
+      function rotateSponIcon() {
+         var element = document.getElementById("SponBTN");
+         // element.classList.add("rotateFAQIcon");
+         element.classList.toggle('rotateFAQIcon');
+      }
+      </script>
 </body>
 
 </html>
